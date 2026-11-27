@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Wallpaper2Video</title>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#213746"/>
+      <stop offset="1" stop-color="#101924"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#284852"/>
+      <stop offset="1" stop-color="#13343F"/>
+    </linearGradient>
+    <clipPath id="display">
+      <rect x="55" y="81" width="166" height="108" rx="15"/>
+    </clipPath>
+  </defs>
+  <rect x="3" y="3" width="250" height="250" rx="54" fill="url(#base)"/>
+  <rect x="5" y="5" width="246" height="246" rx="52" fill="none" stroke="#42606D" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="32" y="51" width="153" height="113" rx="17" fill="#172D39" stroke="#648993" stroke-width="9"/>
+  <rect x="55" y="81" width="166" height="108" rx="15" fill="url(#screen)"/>
+  <g clip-path="url(#display)">
+    <circle cx="89" cy="113" r="11" fill="#FFD88A"/>
+    <path d="M53 164 84 140Q88 137 92 141L106 152 119 139Q123 135 127 139L151 158 176 139 223 176V191H53Z" fill="#398B8D"/>
+    <path d="M53 177 79 167Q89 163 96 168L110 177 139 161 178 179 222 170V191H53Z" fill="#55B9AB"/>
+  </g>
+  <rect x="55" y="81" width="166" height="108" rx="15" fill="none" stroke="#8DE6D0" stroke-width="9"/>
+  <path d="M148 107Q144 105 144 111V157Q144 162 149 159L188 137Q193 134 188 131Z" fill="#F4FFF8"/>
+  <path d="M138 191V207M111 210H165" fill="none" stroke="#8DE6D0" stroke-width="9" stroke-linecap="round"/>
+</svg>

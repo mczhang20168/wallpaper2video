@@ -1,0 +1,36 @@
+name: Windows checks
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: csharp/global.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Set up FFmpeg
+        shell: pwsh
+        run: |
+          if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue) -or
+              -not (Get-Command ffprobe -ErrorAction SilentlyContinue)) {
+            choco install ffmpeg --yes --no-progress
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+      - name: Build and run C# checks
+        shell: pwsh
+        env:
+          W2V_FFMPEG_TESTS: '1'
+        run: .\csharp\build.ps1
+      - name: Check C# formatting
+        working-directory: csharp
+        run: dotnet format whitespace Wallpaper2Video.sln --no-restore --verify-no-changes
+      - name: Run controller checks
+        run: node --test tests/controller-initialization.test.mjs

@@ -1,0 +1,41 @@
+<Application x:Class="Wallpaper2Video.Desktop.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <BooleanToVisibilityConverter x:Key="BoolVisibility"/>
+    <SolidColorBrush x:Key="Ink" Color="#E7EAF0"/>
+    <SolidColorBrush x:Key="Muted" Color="#989FAB"/>
+    <SolidColorBrush x:Key="Accent" Color="#8DA9FF"/>
+    <Style TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="FontSize" Value="14"/><Setter Property="TextWrapping" Value="Wrap"/></Style>
+    <Style TargetType="Control"><Setter Property="FontFamily" Value="Microsoft YaHei UI"/><Setter Property="Foreground" Value="{StaticResource Ink}"/></Style>
+    <Style TargetType="Button">
+      <Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="Background" Value="#303641"/><Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="Padding" Value="12,8"/><Setter Property="Cursor" Value="Hand"/><Setter Property="FontSize" Value="14"/><Setter Property="HorizontalContentAlignment" Value="Center"/>
+      <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button"><Border x:Name="Body" Background="{TemplateBinding Background}" CornerRadius="4" Padding="{TemplateBinding Padding}"><ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="Center"/></Border><ControlTemplate.Triggers><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Body" Property="Opacity" Value="0.8"/></Trigger><Trigger Property="IsEnabled" Value="False"><Setter TargetName="Body" Property="Opacity" Value="0.4"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter>
+    </Style>
+    <Style TargetType="TextBox"><Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="Background" Value="#2C3039"/><Setter Property="BorderBrush" Value="#444B59"/><Setter Property="Padding" Value="7,6"/><Setter Property="CaretBrush" Value="{StaticResource Accent}"/><Setter Property="FontSize" Value="14"/></Style>
+    <Style TargetType="ComboBox">
+      <Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="Background" Value="#303641"/><Setter Property="FontSize" Value="14"/>
+      <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ComboBox"><Grid>
+        <ToggleButton Focusable="False" IsChecked="{Binding IsDropDownOpen,RelativeSource={RelativeSource TemplatedParent},Mode=TwoWay}">
+          <ToggleButton.Template><ControlTemplate TargetType="ToggleButton"><Border Background="#303641" BorderBrush="#444B59" BorderThickness="1" CornerRadius="3"><Path Data="M 0 0 L 5 5 L 10 0 Z" Fill="#E7EAF0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,9,0"/></Border></ControlTemplate></ToggleButton.Template>
+        </ToggleButton>
+        <ContentPresenter IsHitTestVisible="False" Margin="8,6,28,6" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" VerticalAlignment="Center"/>
+        <Popup x:Name="PART_Popup" IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" AllowsTransparency="True" Focusable="False"><Border Background="#303641" BorderBrush="#555E70" BorderThickness="1" MinWidth="{Binding ActualWidth,RelativeSource={RelativeSource TemplatedParent}}"><ScrollViewer CanContentScroll="True"><ItemsPresenter/></ScrollViewer></Border></Popup>
+      </Grid><ControlTemplate.Triggers><Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.4"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter>
+    </Style>
+    <Style TargetType="ComboBoxItem"><Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="Padding" Value="8,6"/><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ComboBoxItem"><Border x:Name="Item" Padding="{TemplateBinding Padding}" Background="Transparent"><ContentPresenter/></Border><ControlTemplate.Triggers><Trigger Property="IsHighlighted" Value="True"><Setter TargetName="Item" Property="Background" Value="#405178"/></Trigger><Trigger Property="IsSelected" Value="True"><Setter TargetName="Item" Property="Background" Value="#35415E"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter></Style>
+    <Style TargetType="Menu"><Setter Property="Background" Value="#22252C"/><Setter Property="Foreground" Value="{StaticResource Ink}"/></Style>
+    <Style TargetType="ToolTip"><Setter Property="FontSize" Value="12"/><Setter Property="MaxWidth" Value="480"/><Setter Property="Background" Value="#29313D"/><Setter Property="Foreground" Value="#E7EAF0"/><Setter Property="BorderBrush" Value="#59677B"/></Style>
+    <Style TargetType="ScrollBar">
+      <Setter Property="Width" Value="14"/><Setter Property="Background" Value="#20242C"/>
+      <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ScrollBar"><Grid Background="{TemplateBinding Background}"><Track x:Name="PART_Track" Orientation="{TemplateBinding Orientation}" IsDirectionReversed="True" Minimum="{TemplateBinding Minimum}" Maximum="{TemplateBinding Maximum}" Value="{TemplateBinding Value}" ViewportSize="{TemplateBinding ViewportSize}">
+        <Track.DecreaseRepeatButton><RepeatButton Command="{x:Static ScrollBar.PageUpCommand}" Focusable="False"><RepeatButton.Template><ControlTemplate TargetType="RepeatButton"><Border Background="Transparent"/></ControlTemplate></RepeatButton.Template></RepeatButton></Track.DecreaseRepeatButton>
+        <Track.Thumb><Thumb MinHeight="26" Margin="2,0"><Thumb.Template><ControlTemplate TargetType="Thumb"><Border x:Name="Grip" Background="#687589" CornerRadius="5"/><ControlTemplate.Triggers><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Grip" Property="Background" Value="#A3B1C8"/></Trigger><Trigger Property="IsDragging" Value="True"><Setter TargetName="Grip" Property="Background" Value="#8DA9FF"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Thumb.Template></Thumb></Track.Thumb>
+        <Track.IncreaseRepeatButton><RepeatButton Command="{x:Static ScrollBar.PageDownCommand}" Focusable="False"><RepeatButton.Template><ControlTemplate TargetType="RepeatButton"><Border Background="Transparent"/></ControlTemplate></RepeatButton.Template></RepeatButton></Track.IncreaseRepeatButton>
+      </Track></Grid></ControlTemplate></Setter.Value></Setter>
+      <Style.Triggers><Trigger Property="Orientation" Value="Horizontal"><Setter Property="Width" Value="Auto"/><Setter Property="Height" Value="14"/></Trigger></Style.Triggers>
+    </Style>
+    <Style TargetType="MenuItem"><Setter Property="FontSize" Value="14"/><Setter Property="Foreground" Value="#E7EAF0"/><Setter Property="Background" Value="#22252C"/><Setter Property="Padding" Value="10,5"/></Style>
+    <Style x:Key="SectionTitle" TargetType="TextBlock"><Setter Property="FontSize" Value="16"/><Setter Property="FontWeight" Value="SemiBold"/><Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="Margin" Value="0,0,0,12"/></Style>
+    <Style x:Key="FieldLabel" TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource Muted}"/><Setter Property="FontSize" Value="12"/><Setter Property="Margin" Value="0,0,0,5"/></Style>
+  </Application.Resources>
+</Application>

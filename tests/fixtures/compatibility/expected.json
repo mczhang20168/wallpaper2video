@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "rounding": [
+    {
+      "seconds": 4.125,
+      "fps": 12,
+      "frames": 50
+    },
+    {
+      "seconds": 4.375,
+      "fps": 12,
+      "frames": 52
+    },
+    {
+      "seconds": 20,
+      "fps": 30,
+      "frames": 600
+    },
+    {
+      "seconds": 0.5,
+      "fps": 1,
+      "frames": 0
+    },
+    {
+      "seconds": 1.5,
+      "fps": 1,
+      "frames": 2
+    },
+    {
+      "seconds": 2.5,
+      "fps": 1,
+      "frames": 2
+    },
+    {
+      "seconds": 3.5,
+      "fps": 1,
+      "frames": 4
+    },
+    {
+      "seconds": 0.03333333333333333,
+      "fps": 30,
+      "frames": 1
+    }
+  ],
+  "cycles": [
+    {
+      "ratio": 1,
+      "valid": true,
+      "count": 1
+    },
+    {
+      "ratio": 2.5,
+      "valid": true,
+      "count": 3
+    },
+    {
+      "ratio": 3.5,
+      "valid": true,
+      "count": 4
+    },
+    {
+      "ratio": 0.2,
+      "valid": true,
+      "count": 1
+    },
+    {
+      "ratio": 3.5,
+      "valid": true,
+      "count": 4
+    },
+    {
+      "ratio": 1000000,
+      "valid": true,
+      "count": 1000000
+    },
+    {
+      "ratio": 0,
+      "valid": false
+    },
+    {
+      "ratio": -1,
+      "valid": false
+    }
+  ],
+  "settings": [
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": true,
+      "frames": 600,
+      "fadeFrames": 60
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1279,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 0,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 121,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 36,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 2,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 4,
+        "overlap": 1,
+        "fps": 12,
+        "width": 160,
+        "height": 90,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": true,
+      "frames": 48,
+      "fadeFrames": 12
+    },
+    {
+      "input": {
+        "duration": 4.125,
+        "overlap": 1.125,
+        "fps": 12,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": true,
+      "frames": 50,
+      "fadeFrames": 14
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "bad"
+      },
+      "valid": false
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 16,
+        "height": 8192,
+        "warmup": 4,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": true,
+      "frames": 600,
+      "fadeFrames": 60
+    },
+    {
+      "input": {
+        "duration": 20,
+        "overlap": 2,
+        "fps": 30,
+        "width": 1920,
+        "height": 1080,
+        "warmup": 121,
+        "crf": 18,
+        "particle_mode": "drain"
+      },
+      "valid": false
+    }
+  ],
+  "paths": [
+    {
+      "input": "scene.json",
+      "valid": true,
+      "normalized": "scene.json"
+    },
+    {
+      "input": "textures/星.tex",
+      "valid": true,
+      "normalized": "textures/星.tex"
+    },
+    {
+      "input": "x/../escape",
+      "valid": false
+    },
+    {
+      "input": "../escape",
+      "valid": false
+    },
+    {
+      "input": "/root",
+      "valid": false
+    },
+    {
+      "input": "C:\\escape",
+      "valid": false
+    },
+    {
+      "input": "a:stream",
+      "valid": false
+    },
+    {
+      "input": "CON.txt",
+      "valid": false
+    },
+    {
+      "input": "x/aux",
+      "valid": false
+    },
+    {
+      "input": "x/COM1.bin",
+      "valid": false
+    },
+    {
+      "input": "end.",
+      "valid": false
+    },
+    {
+      "input": "end ",
+      "valid": false
+    },
+    {
+      "input": "a\u0000b",
+      "valid": false
+    },
+    {
+      "input": "a//b",
+      "valid": true,
+      "normalized": "a/b"
+    },
+    {
+      "input": "a/./b",
+      "valid": true,
+      "normalized": "a/b"
+    },
+    {
+      "input": ".",
+      "valid": false
+    },
+    {
+      "input": "textures/🙂.tex",
+      "valid": true,
+      "normalized": "textures/🙂.tex"
+    },
+    {
+      "input": "a\\b",
+      "valid": true,
+      "normalized": "a/b"
+    },
+    {
+      "input": "ＮＯＲＭＡＬ.tex",
+      "valid": true,
+      "normalized": "ＮＯＲＭＡＬ.tex"
+    }
+  ],
+  "packages": [
+    {
+      "file": "packages/unicode.pkg",
+      "valid": true,
+      "version": "PKGV0016",
+      "entries": [
+        {
+          "name": "scene.json",
+          "size": 14,
+          "sha256": "736520c9db846d6eb9b018e064d7db14c108b04d27d92032fe34dd4a34710741"
+        },
+        {
+          "name": "textures/星.tex",
+          "size": 256,
+          "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+        },
+        {
+          "name": "textures/🙂.tex",
+          "size": 6,
+          "sha256": "6ec9c2b0eb14010746c8bce8939303b382344b296206612eb8a907a37b2b2f37"
+        }
+      ]
+    },
+    {
+      "file": "packages/traversal.pkg",
+      "valid": false
+    },
+    {
+      "file": "packages/duplicate-case.pkg",
+      "valid": false
+    },
+    {
+      "file": "packages/duplicate-fold.pkg",
+      "valid": false
+    },
+    {
+      "file": "packages/truncated.pkg",
+      "valid": false
+    },
+    {
+      "file": "packages/device.pkg",
+      "valid": false
+    }
+  ]
+}

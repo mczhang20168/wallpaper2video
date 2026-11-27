@@ -1,0 +1,312 @@
+{
+  "effects/blend/effect.json": {
+    "b3995f1bef58cfcfe803765324fff60406023db0415d42aae1a7d5f51fc33837": "STATIC",
+    "ff0a5ee10e43e4ec0718766da7a480d3122923adac8dbffae8cb0f3c1c3fa9be": "STATIC",
+    "052db1827201b3b214a6ce058d740abd1a3606a2a6c565c62b8fdcbb45c8747b": "STATIC"
+  },
+  "effects/blendgradient/effect.json": {
+    "16e6037802f779d5ad127baef03e665f1d3bd53d6904fd68e4af1578df2bcefb": "STATIC",
+    "ca987e1976f8791da6b836282a66d9e9ee15819fdca63be5995b1ce796e094fa": "STATIC"
+  },
+  "effects/blur/effect.json": {
+    "348534a0c9b71bc57159be7ff7cca21b0a55bf941f146073f11aa0ad57e7f391": "STATIC",
+    "f76c63260c15ef9df6fb37b81995d622f93abf47479a284c83243969874ec654": "STATIC"
+  },
+  "effects/blurprecise/effect.json": {
+    "57639d97f82406b93a2725ee90bc7df90e97f05740206da1b8b8cd3beeb86731": "STATIC",
+    "5029a8010d73a83d6f7d1c8076cd811d342b30f96bc4d4f298f73ae1d3306118": "STATIC"
+  },
+  "effects/chromaticaberration/effect.json": {
+    "11232e18636cb291c2630ab5d5845f75173f62734dff64dbf6865b744c35874c": "STATIC"
+  },
+  "effects/cloudmotion/effect.json": {
+    "22d739720a6bb534bc9d06ecaee0f711c4ef53997c14aab0538396057244c4c1": "PARAMETER",
+    "7807ee924f686308ccea770fe63eae0890953a0ffd279c3859d8e13a80a97bf1": "PARAMETER"
+  },
+  "effects/cursorripple/effect.json": {
+    "94248034cd4d312e7ce05a17236ffacb256ab8c14f9d188b4f04af7df9e6c4f1": "STATEFUL",
+    "b027810fb6b1f7f606bf16389c556177c048ff3fa9b4dc3d0f233733886138f0": "STATEFUL"
+  },
+  "effects/depthparallax/effect.json": {
+    "88620f4b572858e836587641dc06c0f40f0edd89f2670bb8163a47241dca75dd": "REPLAY"
+  },
+  "effects/filmgrain/effect.json": {
+    "eac2a0cb3e43619ec04d57caa0c521014712396644af6ec62fa6957afe63dee0": "NATIVE_REPEAT_1S",
+    "fd8457cd3177d8de5fb603f773bce5bef18387a32832c3a0c2b68874e96748b9": "NATIVE_REPEAT_1S"
+  },
+  "effects/fisheye/effect.json": {
+    "e5c6b712b7c910f067db986f0c5622d68c7f20cbdb4084c8d0727b9383fded16": "STATIC"
+  },
+  "effects/foliagesway/effect.json": {
+    "2ba59fd060e96b64d4e7b3c24234fac31d2173cfc6113ef525544c2a3a2c595c": "REWRITE",
+    "2fa1ea26c07cfa561de5ffa322aa3dd2281989bed0c8fc82089ec385ed23ec21": "REWRITE"
+  },
+  "effects/godrays/effect.json": {
+    "ce2d654ee729403dd10e6d67ef3292f7830650ed3eef81c462a9a941dd6cff42": "PARAMETER",
+    "c5d815bf1d3e82ec361f8b9e62b0a40cbb47a072bd7e23e8793eb70490052a69": "PARAMETER",
+    "9d8299b8f21001d17de717c32d9dd0178069d587cb369bdcaeffae10fbaa8d82": "PARAMETER"
+  },
+  "effects/iris/effect.json": {
+    "cdc18bcf58b15b717f2c3b621e0b81683dbb98a6db6ed2b403e60be1da258941": "REWRITE"
+  },
+  "effects/lightshafts/effect.json": {
+    "7362cc3abbd1afdb272c2230c92bd10c1cd0df9f1ca351d5024f930de403fcfc": "REWRITE"
+  },
+  "effects/localcontrast/effect.json": {
+    "5648245fe31b9ba34089351c12bc21517ac8e688c1c9e56c87e69a2c9f0a9f9b": "STATIC",
+    "191abba0f0a5adf0c090eb7692b60168b09056a3dfb750faae29a50168dc567b": "STATIC"
+  },
+  "effects/motionblur/effect.json": {
+    "54072e02d013a93e03ea32a6b0d0608368a5306aa83560fdb431c7e03156b63e": "STATE_SOLVE",
+    "93128da47f99090b67ea8fd4916428eed6893e39183b5d4be6f9b03a67a2be8d": "STATE_SOLVE"
+  },
+  "effects/opacity/effect.json": {
+    "581a7184efe003679573505284d50ebc3453670cdc5b560ec40ba3fe8c76c11d": "STATIC"
+  },
+  "effects/pulse/effect.json": {
+    "cd2d1b4bc29f64dfa3d92d35ba5698d04fe25b2ab33a3511d8992991e901049f": "PARAMETER",
+    "cc9dc5666f8b47f27129857dd82fc4916e3b5c9136e3b613091299bac4edb559": "PARAMETER",
+    "b0ee002469fb2783fb8ebbffbf713c4f667368ee1e193dafab37b25718f8e1b8": "PARAMETER",
+    "fcfd9be9a7a540c0ba138c92e64c0c1d02f40ee154f8e48479d35b7c14882448": "PARAMETER",
+    "4aae2c904330e61da76e737b26ccc942b71b633906c48bcde3fcce4cc5b48b3d": "PARAMETER"
+  },
+  "effects/reflection/effect.json": {
+    "377cd87206b72204277ce63d750d86b817f95d4af30476632e46e85ef57378f5": "STATIC"
+  },
+  "effects/scroll/effect.json": {
+    "d5aaf59e38c0fe9daa0a8485d456faef17d52199289c0bd223576f3013d8e220": "PARAMETER"
+  },
+  "effects/shake/effect.json": {
+    "f28b39e2c0316136ce55f3d82baf75be3f703e861a3299a06394b5be7848b250": "PARAMETER",
+    "ebc593ce28d410fc4c69519d4e0e60eba7b352ef18c0d160ff2286eb16c18610": "PARAMETER",
+    "c11703a4dca797d3e73daf965ac1f01274adc76676ad88056684b45f4ed65b31": "PARAMETER",
+    "407e7685a55c5605b6d82025897d85ae6f13ad0b0be002c5c439802c9d50641c": "PARAMETER",
+    "bbb57658cd6b08121992578671898f0d6659bda1e050ac1969a590501f41ef53": "PARAMETER",
+    "0f98552c7a9c5f11cd829f737545c88d4c178af5644a5cb088a93378b9cd587d": "PARAMETER"
+  },
+  "effects/shine/effect.json": {
+    "7ecfa75e813f9750ea384709d8db561fca2c699fd671d9b36cdb55360f6a1951": "PARAMETER",
+    "ec2469e58e8b6fda59ac8880d1bcbe2b6aa985a13a3b89efaa3dbaa9320d4675": "PARAMETER",
+    "0c0a8ec35f8d5d2e3edb8add561c3ccf7810b652f02422b16bc892b9d672576b": "PARAMETER"
+  },
+  "effects/spin/effect.json": {
+    "9b893d0fb089792d17a2f1bfc02b4232a6c56f940326b040e6d9aecdf363d4be": "PARAMETER",
+    "e4bdadceb6a8b9189c8c3dafaeb16723ab4e91965b23e5f5a71b3448de695b1f": "PARAMETER",
+    "e6ed2c48f6a7170623ed061b5a3741ef5114b238454949d27b54aff1d6e4d7ac": "PARAMETER"
+  },
+  "effects/swing/effect.json": {
+    "da222166878690cdb488f331b0e6a7e82c5d7a239e268eef8d1283a0fcb3fa51": "PARAMETER",
+    "634dc243bdb979bcb2b845cb9bd43063751cb8b8569b149338830fbb9a4c8e73": "PARAMETER"
+  },
+  "effects/tint/effect.json": {
+    "cc32188ad086292ffae5cf170e855cfa3eaf33381708d61d0ea50d3eb463b06b": "STATIC"
+  },
+  "effects/transform/effect.json": {
+    "54084fdb8b5b0f873a281d862cba285a4661f0d238b8a64c24baaa3e91cd4887": "STATIC",
+    "d64edfedb36f9d38f603be628f0e99a5eac0c167620f11a87c16b2863142ead6": "STATIC"
+  },
+  "effects/twirl/effect.json": {
+    "23f12770d68594c039e91bd090257a4a4c5d1e80d7879b8b07e8dd2b008b370e": "PARAMETER"
+  },
+  "effects/vhs/effect.json": {
+    "aea3774809cf8ae3dcb43a6d84af2aaa34c77b09734467c092f2abefb5451e2e": "REWRITE",
+    "a343ff8a4f892483bc11cd85417c23d02860d86548b0d091bcd00804747ff51c": "REWRITE"
+  },
+  "effects/watercaustics/effect.json": {
+    "452aac1db65a952ccbefb5d8ce9e3dcca35bc5d565b665909f3a720f0b5be878": "REWRITE"
+  },
+  "effects/waterflow/effect.json": {
+    "ad153f560dafb6f6d30e1a7da18d2bb56b102a64309b9f7c0c6ca32e0fb5d528": "PARAMETER",
+    "e0ac48af019f3edc26e1ce2742403124e97f0041329fc5f9416581c7ffb1fcb6": "PARAMETER",
+    "e8ae216c10e47be8d82527808a872ae387f277caab1ef9aa6f27b6244e2f1846": "PARAMETER"
+  },
+  "effects/waterripple/effect.json": {
+    "4b333704b203bff85b2010dee1e02efbd659d12f83268251a4646ee05b71b918": "PARAMETER",
+    "7c05766ca3aea01d68b22abe1647ea9ef7e233e9c03c7d4ad02d7ee89dcd5ed0": "PARAMETER",
+    "85427b4a7493be9bd6f87ec5d691340d89dc1670fe93c415f0b141993e2b3ce7": "PARAMETER",
+    "fbc94a76e52fc809e37f2afa7a3d30dbc7771347b09aa4f041b49898d2764800": "PARAMETER"
+  },
+  "effects/waterwaves/effect.json": {
+    "be2d2bf7f7ddcee221b4393acf93c0c411bd1279ad9fe7068864939230e726c1": "PARAMETER",
+    "e4bcf4700bf44209e14501ce99e947ff338e988bd4275cfd2297cea0ce4fd885": "PARAMETER",
+    "bfb9e2ff56b4d72b15be5790bdd16440dfe086b347811fc825791c9755f53a89": "PARAMETER",
+    "4361d499030633bef7d51d8a17a88666a5b4c6300f11a5ea0995ced69bddbd75": "PARAMETER",
+    "20cd0944619615d9923a4f25ddc7fef85cb9d68a31ab2fe8345c80f21500e861": "PARAMETER",
+    "42b9ef04e56986a0003254c48725b700015c5f1b7af85488350b1c47d8af89a5": "PARAMETER"
+  },
+  "effects/xray/effect.json": {
+    "68ae56e57ec79695bcc84f34d7f038411c8d0ac5aeffa2ac323c52d4140d83f9": "REPLAY",
+    "337d7c176a0f63bb30a111557ac5b07492e9ceedb83cbf4b2b80396b3bf7bd68": "REPLAY"
+  },
+  "effects/workshop/2084198056/Simple_Audio_Bars/effect.json": {
+    "0469f5b363da31127b651709082cc47706af1b30ba30c0ce64585c10318a4011": "REPLAY",
+    "07a11a575f15b8dd1fd4132620813090d73f3159d5bf7adad1a6f4e4f054af9e": "REPLAY"
+  },
+  "effects/workshop/2114826643/shift_hue/effect.json": {
+    "ce96b159140dc270ed2224def52cd71d1ecfa87def31729ffd38886db249bb7d": "PARAMETER",
+    "d6b7eb574e124e9a79592ee435c7ab302a1e907dda61c31a4def60bc43de6a88": "PARAMETER"
+  },
+  "effects/workshop/2193274282/hue_shift/effect.json": {
+    "8902c462553f6b1ea3fe716eeb212d697cc429b8916f7ddf40a1704f2e236e96": "REPLAY"
+  },
+  "effects/workshop/2413251683/blurprecise/effect.json": {
+    "b48897767c204c77db415e51f45ca5f902dc46c8423fbe8c6ba190d67ff1b39f": "STATIC"
+  },
+  "effects/workshop/2423877731/chromatic_aberration/effect.json": {
+    "af31d8d316aad23cf1e22a1337fc078221568bef0aaa4ed250ac891f5a65fbf0": "STATIC"
+  },
+  "effects/workshop/2487531853/lens_flare_sun/effect.json": {
+    "c6202e982cab834b854556e16b3e62344c7eee436207409a48ef6ac8425e37cb": "PARAMETER"
+  },
+  "effects/workshop/2489075276/distortion_glitch/effect.json": {
+    "333d0d5be5d5d9eabb237aeea44b6f15a33d23964c3da2069a4fe4ed207ae7e5": "PARAMETER"
+  },
+  "effects/workshop/2655151285/opacity/effect.json": {
+    "351e9f78acde4065c840c03dbe39024a7972b9af6888aced55b73173aed1bfb8": "STATIC"
+  },
+  "effects/workshop/2655151285/perspective/effect.json": {
+    "bbf4554550476efa1eebfe65139225190c946d299ca516daa31d62315b9259d4": "STATIC"
+  },
+  "effects/workshop/2655151285/pulse/effect.json": {
+    "6f826ec6b986cd9e25859b32c17c4a14c97d28ffbed7e4621069b7d8a0854889": "REPLAY"
+  },
+  "effects/workshop/2655151285/waterflow/effect.json": {
+    "c362059051245323aecbf98ac939e2223bde42ef4f2e39ac696e37abbd595a19": "PARAMETER"
+  },
+  "effects/workshop/2655151285/waterripple/effect.json": {
+    "92a05a1bbc4be93df8d678016f18ca708e1eff6386b23826b4215b0fefea8549": "PARAMETER"
+  },
+  "effects/workshop/2718465779/pulse_/effect.json": {
+    "83538dfd2e2c64684cdb20a5b75c471b76a06b555e3d9cc157ef25dd2db27196": "REPLAY"
+  },
+  "effects/workshop/2795521260/color_grading/effect.json": {
+    "c4253f2794b0d280fd7a15b65caee9493bcb29da9f38ee3a0d6da391e421e884": "STATIC"
+  },
+  "effects/workshop/2798319181/bokeh_blur/effect.json": {
+    "106b74e1061d89a393b872cc0044fe2fc8cf85236b82b6fd3185e1f2f83c63c0": "STATIC"
+  },
+  "effects/workshop/2821337237/crt_screen/effect.json": {
+    "096926028c6901f83556a891550cb20b7f30f071790697c409c7b06c1b693b51": "REWRITE"
+  },
+  "effects/workshop/2924967132/procedural_noise/effect.json": {
+    "02b6f586fef271d959c094590f9371cc24907a249b241c550d07aca1a1e11978": "REWRITE"
+  },
+  "effects/workshop/2924967132/waterripple/effect.json": {
+    "eaf7b0c638b5939b9829309da04767c385e396c62bbaf87e8bb216dbd38c0def": "PARAMETER"
+  },
+  "effects/workshop/2944127259/scroll/effect.json": {
+    "c99d5616fc3c0037b3c854e5ca42201988600c7495995bffe8e6645aa743d4e8": "PARAMETER"
+  },
+  "effects/workshop/2944127259/waterripple/effect.json": {
+    "e98d3de599e04e724b2886e24d10e9c9fd1cb95fee1ac624d441f4f85850742d": "PARAMETER"
+  },
+  "effects/workshop/2973943998/iris_follow_cursor/effect.json": {
+    "9936bdd8aa9d9220009243a1dba885c44e6d4a7e359c9ecb81d5d0213cbc7e71": "REPLAY"
+  },
+  "effects/workshop/2978738836/blend/effect.json": {
+    "1d7c54e6bc41e98b92d66c116e9c300cd644abae6f3aebff4d4554d37ae65089": "STATIC"
+  },
+  "effects/workshop/2978738836/blendgradient/effect.json": {
+    "362e6c650f9916cfe078651034918c5cbe02d67300133bd7d5e9580290f7dccd": "STATIC"
+  },
+  "effects/workshop/2978738836/blurprecise/effect.json": {
+    "62b8bc7b46ad64e610d6731ee402b960198b0da55ac43b970a51e52a20c2b20e": "STATIC"
+  },
+  "effects/workshop/2978738836/opacity/effect.json": {
+    "4136e7c76dcf73ff15f162ebceddcf0882da335064e5a3acbfd945704d569f92": "STATIC"
+  },
+  "effects/workshop/3268192450/spin/effect.json": {
+    "ff903ee48c23f579be51c7a2b03e45de0b89526611ec2613b44e08521189aa7f": "PARAMETER"
+  },
+  "effects/workshop/2978738836/spin/effect.json": {
+    "990cc9663ae2a1a5c0ba1af376802a08ae58902ee2a170d1bdc8108f969f76c8": "PARAMETER"
+  },
+  "effects/workshop/2981960200/blurprecise/effect.json": {
+    "0adc7b020477af8e2631fc4b5b48689223933c8b6379f9d731cf2c648cc10393": "STATIC"
+  },
+  "effects/workshop/3021673417/Simple_Audio_Bars/effect.json": {
+    "0b44dfd46c4a612c526b4832f8809bf8bf0e7d62f29808b215320f48d23bef7b": "REPLAY"
+  },
+  "effects/workshop/3082978660/enhanced_simple_audio_bars/effect.json": {
+    "391d473a7fcb7121144e0c1943dd352b336674e05297c3d6b24bb39f51ff9ad0": "REPLAY",
+    "392db671714724af40de4f8a300dd7f37e71979f1145d69a644f120dc77b5456": "REPLAY"
+  },
+  "effects/workshop/3088030303/shadow/effect.json": {
+    "2eadc0f49c97e2e9166deda2779d27d68b66d1887d8d22b757a4c0b0bd48dab5": "STATIC"
+  },
+  "effects/workshop/3219510589/blendgradient/effect.json": {
+    "2cc5cb380aa8c4258f1aafa9774ea0b1cd1b993e247af40d5a36f5a347b0834f": "STATIC"
+  },
+  "effects/workshop/3219510589/opacity/effect.json": {
+    "fcb8962de6c68e44dbb56afc80cf39ee28b484f078719fab19de7ee172848cb6": "STATIC"
+  },
+  "effects/workshop/3219510589/tint/effect.json": {
+    "de22f7670de4dbb592c98d5cf134e39b9a7a34178a5bfbc35a1f8f9639021137": "STATIC"
+  },
+  "effects/workshop/3299008209/workshop/2084198056/Simple_Audio_Bars/effect.json": {
+    "8926c6ce6ca61f12bbaf409f12173193e63f46f90034efa9bd9e53d953011387": "REPLAY"
+  },
+  "effects/workshop/3299091578/pulse/effect.json": {
+    "9f50d18ae6b6c7de452a82f1a41c21d1d377d0987a89aff7e0f47175c3fe4a9e": "REPLAY"
+  },
+  "effects/workshop/3302578859/scroll/effect.json": {
+    "d5aa6ddbd8cbf6be7ba7535eb52eb414f421a107b67ca097ae8f33d1ed69cbb1": "PARAMETER"
+  },
+  "effects/workshop/3403631383/simple_gradient_audio_bar/effect.json": {
+    "25c60b8fee14b15df7cb7c691f54a20bd109d68d945998f20559d8e04a0fe049": "REPLAY"
+  },
+  "effects/workshop/3518155853/opacity/effect.json": {
+    "8834427c3ebb4d6f3b0102e058b1c22de1da2d1ffa98b28cb6e7895500885780": "STATIC"
+  },
+  "effects/workshop/3518155853/waterflow/effect.json": {
+    "63c72d0236735117f2c931efd603aa558c6c552b13f3e83edb3dd971e080aa1b": "PARAMETER"
+  },
+  "effects/workshop/3518155853/waterripple/effect.json": {
+    "1cf47ceac8373c2cc3d3f6abd86abc944d7bc59a66fdf6fcd845711afa2565f0": "PARAMETER"
+  },
+  "effects/workshop/3544136971/blur/effect.json": {
+    "08f19708407abcba61f1b22575d231e91bf30a650d22d12b38f81b5bd5373136": "STATIC"
+  },
+  "effects/workshop/3544136971/scroll/effect.json": {
+    "5b21e0b4fecd41dc20325f8ce2d31666f174e227e188319e3d038607e32336f9": "PARAMETER"
+  },
+  "effects/workshop/3544136971/swing/effect.json": {
+    "4a3fa7f6035a2ff3975b905e795881c9cea108f854ab23f8b5e6b93d8145c6e5": "PARAMETER"
+  },
+  "effects/blurradial/effect.json": {
+    "5b03939ea72896eefe3acf3ba2b5d9d90dbd05f168d5befb5657b317fe668a97": "STATIC"
+  },
+  "effects/clouds/effect.json": {
+    "fb8496d57f763e5bb1b996b22cb1d80a7f198a139eecf632246a6de174de64e7": "PARAMETER"
+  },
+  "effects/colorkey/effect.json": {
+    "8c647c447514a743fb91e4275a2cb4f773df44e6d994341514851ec016770257": "STATIC"
+  },
+  "effects/edgedetection/effect.json": {
+    "f32cc61efd5698b7f564f25087f42270dce0378cd0892b9523a4a417aa1fb4f5": "STATIC"
+  },
+  "effects/fire/effect.json": {
+    "4378b4f752bb2e71ca66c355a656b595dcbb5547dfc1bdcaa09600b23e7d952b": "PARAMETER"
+  },
+  "effects/fluidsimulation/effect.json": {
+    "7dbc6bf4874cd50024c7e788e31b7024aafab0a7baf1024e8483de0fb7df320a": "STATEFUL"
+  },
+  "effects/glitter/effect.json": {
+    "3bf30951886ceb7a6a3eb967e231cfd21e23792e8ae4211d9406645ad232305f": "PARAMETER"
+  },
+  "effects/nitro/effect.json": {
+    "3abc8646bd3a81a1556607134cb5f92719cb442eed999ae1bd73ce6195386b53": "PARAMETER"
+  },
+  "effects/perspective/effect.json": {
+    "19a9867b22c74a8883bec56c4cd0ff999c40baa886087c635494ab6a26213b1e": "STATIC"
+  },
+  "effects/refraction/effect.json": {
+    "4ae5634a4b7c8a1c06b0d9e2ee63ef1c44d8804db6ea597761850667b9dad250": "STATIC"
+  },
+  "effects/shimmer/effect.json": {
+    "0c4d1ad52667319147c0e844659d0bf6d3543c83bee491d56189869b0b84dfcf": "PARAMETER"
+  },
+  "effects/skew/effect.json": {
+    "87173dea2974e6939aa0d539341d4afe4a23a3bee790eb3411c9a9d79661e750": "STATIC"
+  }
+}

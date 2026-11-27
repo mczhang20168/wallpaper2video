@@ -44,7 +44,7 @@ dotnet $cli export '<场景目录>' -o 'output/scene.mp4' --duration 20 --fps 30
 .\csharp\build.ps1 -TestWallpapers
 
 $desktop = 'csharp\src\Wallpaper2Video.Desktop\bin\Release\net10.0-windows\Wallpaper2Video.Desktop.dll'
-dotnet $desktop --acceptance '<至少 8 秒的测试视频>' '<含效果的场景目录>' '<新的结果目录>'
+dotnet $desktop --acceptance '<至少 22 秒的测试视频>' '<含效果的场景目录>' '<新的结果目录>'
 dotnet $desktop --full-scene-acceptance '<宇航员场景目录>' '<新的结果目录>'
 ```
 

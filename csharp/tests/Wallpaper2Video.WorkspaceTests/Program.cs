@@ -79,10 +79,17 @@ internal static class Program
         });
         await Check("scrubLatestTargetAndResume", async () =>
         {
-            var model = new WorkspaceModel(); model.MediaOpened(20); var seeks = new List<double>(); model.SeekRequested += seeks.Add;
+            var model = new WorkspaceModel(); model.MediaOpened(20); var seeks = new List<double>();
+            var latestTarget = new TaskCompletionSource(TaskCreationOptions.RunContinuationsAsynchronously);
+            model.SeekRequested += seconds =>
+            {
+                seeks.Add(seconds);
+                if (Math.Abs(seconds - 13) < .001) latestTarget.TrySetResult();
+            };
             model.PlayCommand.Execute(null); model.BeginScrub(); model.Position = 1; model.Position = 8; model.Position = 13; model.UpdatePosition(.2);
             Require(Math.Abs(model.Position - 13) < .001, "拖动被播放器旧反馈拉回");
-            await Task.Delay(100); Require(Math.Abs(seeks[^1] - 13) < .001, "限频丢失最后一次拖动位置");
+            await latestTarget.Task.WaitAsync(TimeSpan.FromSeconds(5));
+            Require(Math.Abs(seeks[^1] - 13) < .001, "限频丢失最后一次拖动位置");
             model.EndScrub(); Require(model.IsPlaying, "松开后没有恢复播放");
             model.UpdatePosition(.3); Require(Math.Abs(model.Position - 13) < .001, "松开后接受了旧反馈");
             model.UpdatePosition(13.033); Require(model.Position > 13, "跳转确认后仍冻结进度");
